@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#header{
+    height: 80px;
+    width: 100vw;
+    background-color: #146C94;
+    /* border: 2px solid rgb(220, 211, 233); */
+    color: aliceblue;
+    z-index: 5;
+}
+#logo {
+    height: 2px;
+    width: 3px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    bottom: 50px;
+}
+#name{
+    position: fixed;
+    top: 1rem;
+    left: 40rem;
+    text-align: center;
+}
+#box1{
+    height: 50px;
+    width: 100vw;
+    background-color:#19A7CE;
+    display: flex;
+    justify-content:space-between;
+    border: 2px solid black; 
+    text-align: center;
+    font-size: 20px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.items1{
+    /* border: 1px solid black; */
+    width: 400px;
+    margin: 10px;
+    
+}
+#box2{
+    height: 30rem;
+    width: 100vw;
+    display: flex;
+
+}
+#listbox{
+    height: 28rem;
+    width: 20rem;
+    background-color: #F99417;    
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(22, 21, 21);
+    font-style: bold;
+    font-size: 20px;
+}
+#contentbox{
+    height: 28rem;
+    width:80rem ;
+    background-color: #F5F5F5;
+    border: 1px solid black;
+}
+#imgbook{
+    background-image: url("bookimg.jpg");
+    height: 25rem;
+    width: 24rem;
+    background-size: cover;
+    position:absolute;
+    left: 71rem;
+    top: 10rem
+}
+pre{
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+input{
+    height: 20px;
+    width: 300px;
+}
+button{
+    height: 20px;
+    width: 30px;
+    background-color: rgb(93, 139, 212);
+    color: azure;
+}
+#booksimgbox{
+    height: 150px;
+    width: 800px;
+    position: relative;
+    top: 50px;
+    left: 65px;
+    background-color: azure;
+    display: flex;
+}
+.footer{
+    height:25rem;
+    width: 100vw;
+    background-color:#146C94;
+    position:absolute;
+    top: 36rem;
+    left: 0;
+    border-top: 4px solid aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.endfoot{
+    position: absolute;
+    top: 58rem;
+    left: 45rem;
+    color: #F5F5F5;
+    
+}
+#footline{
+    position:absolute;
+    top: 55rem;
+    left: 0;
+    right: 0px;
+}
+#booksimgbox{
+    height: 10rem;
+    width: 45rem;
+    background-color: black;
+    background-image: url("bookimg3.png");
+    background-size: cover;
+    position: absolute;
+    top: 23rem;
+    left: 22rem;
+    border: 5px solid black;
+}
